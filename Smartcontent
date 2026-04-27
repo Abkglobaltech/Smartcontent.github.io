@@ -1,21 +1,138 @@
-index.html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Smart Content</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Content | Portfolio</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 40px;
+}
+
+header p {
+  color: #94a3b8;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #38bdf8;
+}
+
+/* CARDS */
+.card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 12px;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+</style>
 </head>
 
-<body style="background:black; color:white; text-align:center;">
+<body>
 
-<h1>Abubakar Sani Ibrahim</h1>
-<p>I am a Content writer</p>
+<header>
+  <h1>Abubakar Sani Ibrahim</h1>
+  <p>Content Writer | Video Creator | Digital Marketer</p>
+</header>
 
-<h2>My Projects</h2>
-<p>Video Content</p>
-<p>Content writing</p>
+<section>
+  <h2>About Me</h2>
+  <p>I create engaging content that helps brands grow and reach more people online.</p>
+</section>
 
-<h2>Contact</h2>
-<p>Email: abknetworking@gmail.com</p>
+<section>
+  <h2>Services</h2>
+
+  <div class="card">
+    <h3>Content Writing</h3>
+    <p>High-quality articles, blog posts, and marketing content.</p>
+  </div>
+
+  <div class="card">
+    <h3>Video Content</h3>
+    <p>Creative video ideas and scripts that attract attention.</p>
+  </div>
+
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Crypto Promotion Campaign</h3>
+    <p>Created viral promotional content for crypto platforms.</p>
+  </div>
+
+  <div class="card">
+    <h3>Social Media Growth</h3>
+    <p>Helped brands grow engagement through content strategy.</p>
+  </div>
+
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <p>Email: abknetworking@gmail.com</p>
+
+  <a class="btn" href="mailto:abknetworking@gmail.com">Send Email</a>
+
+  <br><br>
+
+  <a class="btn" href="https://wa.me/2347063678419">Chat on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 Smart Content. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
