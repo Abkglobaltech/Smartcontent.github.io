@@ -1,0 +1,21 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Content</title>
+</head>
+
+<body style="background:black; color:white; text-align:center;">
+
+<h1>Abubakar Sani Ibrahim</h1>
+<p>I am a Content writer</p>
+
+<h2>My Projects</h2>
+<p>Video Content</p>
+<p>Content writing</p>
+
+<h2>Contact</h2>
+<p>Email: abknetworking@gmail.com</p>
+
+</body>
+</html>
